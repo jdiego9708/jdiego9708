@@ -14,6 +14,14 @@ Diez años escribiendo código, casi todos con .NET de base. Hoy construyo y mid
 | Un backend que escale y se pueda mantener | .NET 8 con Clean Architecture y CQRS | 450 endpoints, 79 tablas PostgreSQL/PostGIS |
 | Un proceso de 13 horas | Pipeline de fotogrametría automatizado con GPU | 14 minutos |
 
+## Proyecto propio: NexoDeck
+
+Un centro de control para el PC desde el móvil: stream deck virtual en Rust y Flutter, con métricas en vivo, acciones y macros, un asistente de IA local y un servidor MCP. **La idea y las decisiones son mías; el código lo escribe una IA bajo mis reglas**, y lo digo en el propio repositorio (71 de 96 commits con la coautoría de Claude declarada). Probado de punta a punta en un teléfono Android real.
+
+**Repositorio:** https://github.com/jdiego9708/NexoDeck-publico
+
+**Cómo lo construí y qué decido yo:** https://github.com/jdiego9708/NexoDeck-publico/blob/main/docs/COMO-SE-CONSTRUYO.md
+
 ## Con qué trabajo
 
 C# y .NET · PostgreSQL y PostGIS · Python (entrenamiento y exportación a ONNX) · Rust · TypeScript y React · Flutter · Microsoft Azure
